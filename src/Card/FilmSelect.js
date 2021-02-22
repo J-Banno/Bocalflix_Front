@@ -74,12 +74,9 @@ function FilmSelect() {
   // Catégories
   function renderFavorites() {
     console.log(favorites);
-    return favorites
-
-      .filter((movie) => movie)
-      .map(function (movie) {
-        return <FilmCard openModal={openModal} data={movie} />;
-      });
+    return favorites.map(function (movie) {
+      return <FilmCard openModal={openModal} data={movie} />;
+    });
   }
 
   function renderMovies() {

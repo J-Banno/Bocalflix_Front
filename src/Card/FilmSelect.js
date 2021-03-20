@@ -5,7 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import { useState, useEffect } from "react";
 
 function FilmSelect() {
-  /* Variable d'état */
+  /* Variable  d'état */
   const [movies, setMovie] = useState([]);
   const [modalData, setModalData] = useState({});
   const [favorites, setFavorites] = useState([]);
